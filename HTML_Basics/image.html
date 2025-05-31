@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/31950254/pexels-photo-31950254/free-photo-of-elegant-black-and-white-wedding-ceremony-scene.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="500px"alt="no image ">
+    <img src="./Screenshot(95).png" width="500px"alt="no image ">
+    <picture>
+        <source media="(min-width:650px)"  srcset="./Screenshot (95).png"/>
+        <source media="(min-width:1000px)"  srcset="./Screenshot (95).png"/>
+        <img src="./Screenshot(95).png" width="500px" alt="">
+    </picture>
+
+    <!-- An image map generator-->
+
+<img src="Screenshot (95).png" widht="400px"usemap="#image-map">    
+<map name="image-map">
+    <area onclick="one() " target="" alt="" title="" href="" coords="" shape="rect">
+    <area onclick="one() " target="" alt="" title="" href="" coords="469,676,250,520" shape="rect">
+</map>
+<script>
+    function one(){
+      alert("you clicked on one ")
+    }
+</script>
+</body>
+</html>
